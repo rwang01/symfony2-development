@@ -25,7 +25,7 @@ book和cookbook都是重要的参考资料，但在这以外，倘若可以有�
 
 ## 目录 ##
 1. 鸟瞰Symfony2
- + [Symfony2，一个PHP框架](https://github.com/csnihhuweeping/symfony2-development/blob/master/part-01/chapter-01.md)
+ + [Symfony2：一个PHP框架](https://github.com/csnihhuweeping/symfony2-development/blob/master/part-01/chapter-01.md)
  + [你说什么？Symfony2?](https://github.com/csnihhuweeping/symfony2-development/blob/master/part-01/chapter-02.md)
  + [用命令行来新建一个bundle](https://github.com/csnihhuweeping/symfony2-development/blob/master/part-01/chapter-03.md)
 2. Symfony2基础
