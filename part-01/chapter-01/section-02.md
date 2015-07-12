@@ -14,7 +14,7 @@ Symfony的第二个版本（Symfony2）在2011年8月推出，这也是我们在
 
 是的，Symfony2这个世界上最好的PHP框架之一是法国制造的！[SensioLabs](https://sensiolabs.com/)公司负责Symfony的代码管理，而这家公司的建立者就是Fabien Potencier（译者注：此人即为Symfony框架的最初缔造者）。但同时Symfony2也是开源软件，整个社区都对它贡献代码。社区里有很多法国人，但也有来自世界各地的人员：欧洲的，美国的，等等。多亏了Fabien的聪明才智和整个社区的慷慨贡献Symfony2才能得以面世。
 
-## 用Symfony能做什么 ##
+## 用Symfony能做什么？ ##
 
 使用Symfony和很多其它PHP框架一样，你能想多远就能走多远！事实上，你啥都能干：框架本身不会给你什么限制，它只不过给了你一个工作时的基础架构。你可以自由发挥，怎么好用怎么用！我刚刚说了Dailymotion这个视频分享网站是用Symfony做的；但你也可以做一个电子商务网站，比如我做过的[Caissin](https://www.caissin.fr/)网站；甚至一个复杂得像[OpenClassrooms](https://openclassrooms.com/)这样的网站，它也是用Symfony2做的。
 

@@ -20,4 +20,4 @@
 
 1. [框架是什么](https://github.com/csnihhuweeping/symfony2-development/blob/master/part-01/chapter-01/section-01.md)
 2. [Symfony2是什么](https://github.com/csnihhuweeping/symfony2-development/blob/master/part-01/chapter-01/section-02.md)
-3. [下载Symfony2](https://github.com/csnihhuweeping/symfony2-development/blob/master/part-01/chapter-01/section-03.md)
+3. [安装Symfony2](https://github.com/csnihhuweeping/symfony2-development/blob/master/part-01/chapter-01/section-03.md)
