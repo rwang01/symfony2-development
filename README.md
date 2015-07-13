@@ -1,7 +1,7 @@
 # Symfony2实战 #
 
 ## 关于本教程 ##
-这套教程翻译自法语在线教程[Développez votre site web avec le framework Symfony2](https://openclassrooms.com/courses/developpez-votre-site-web-avec-le-framework-symfony2)，作者为Alexandre Bacco，采用[Creative Commons](http://creativecommons.org/licenses/by-nc-sa/2.0/)许可证，由[SensioLabs](https://sensiolabs.com/)（这个SensioLabs就是推出Symfony的背后公司）和[OpenClassrooms](https://openclassrooms.com/)联合推出。
+这套教程翻译自法语在线教程[Développez votre site web avec le framework Symfony2](https://openclassrooms.com/courses/developpez-votre-site-web-avec-le-framework-symfony2)，作者为Alexandre Bacco，采用[Creative Commons](http://creativecommons.org/licenses/by-nc-sa/2.0/)许可证，由[SensioLabs](https://sensiolabs.com/)（这个SensioLabs就是推出Symfony的背后公司）和[OpenClassrooms](https://openclassrooms.com/)联合推出，Symfony的缔造者Fabien Potencier请自推荐。
 
 ## 为什么翻译这套教程 ##
 2005年，Symfony由法国公司SensioLabs推出后，以功能强大而著称，但伴随的代价也是较高的学习成本。国内曾经出国一本Symfony的书，但是那是symfony1.x版本（注意这里s是小写的）的。2011年推出的Symfony2相比较1有了较大改动，虽然仍然保留了一些核心的理念，但具体到代码层面，也是大为不同。但国内后来也没有出版过专门介绍Symfony2的书，大家学习Symfony2基本都是参考官方网站的[book](http://symfony.com/doc/current/book/index.html)和[cookbook](http://symfony.com/doc/current/cookbook/index.html)为主。
@@ -26,7 +26,7 @@ book和cookbook都是重要的参考资料，但在这以外，倘若可以有�
 ## 目录 ##
 1. 鸟瞰Symfony2
  + [Symfony2：一个PHP框架](https://github.com/csnihhuweeping/symfony2-development/blob/master/part-01/chapter-01/index.md)
- + [你说什么？Symfony2?](https://github.com/csnihhuweeping/symfony2-development/blob/master/part-01/chapter-02/index.md)
+ + [你说什么？Symfony2？](https://github.com/csnihhuweeping/symfony2-development/blob/master/part-01/chapter-02/index.md)
  + [用命令行来新建一个bundle](https://github.com/csnihhuweeping/symfony2-development/blob/master/part-01/chapter-03/index.md)
 2. Symfony2基础
  + [第一个用Symfony2实现的“Hello World!”](https://github.com/csnihhuweeping/symfony2-development/blob/master/part-02/chapter-04/index.md)
