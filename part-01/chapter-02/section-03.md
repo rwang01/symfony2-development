@@ -30,13 +30,13 @@ bundle除了可以让你根据功能来组织代码，也可以让你在应用�
 
 ### Symfony社区开发的一些bundle ###
 
-Symfony社区开发的几乎所有bundle都归类在了这个站点：http://knpbundles.com。那里有很多bundle，我给你列举几个：
+Symfony社区开发的几乎所有bundle都归类在了这个站点：[http://knpbundles.com](http://knpbundles.com)。那里有很多bundle，我给你列举几个：
 
 - [FOSUserBundle](http://knpbundles.com/FriendsOfSymfony/FOSUserBundle) 这个bundle是用来管理你网站用户的。具体来说，它提供了一个User模型，一个完成各样基础功能的控制器（登陆，注册，退出，修改个人信息，等等），还有相关的视图。你只要安装这个bundle，然后稍微定制一下，你的网站就有一个会员空间的功能了！我们在后续的章节里会用到这个bundle。
 - [FOSCommentBundle](http://knpbundles.com/FriendsOfSymfony/FOSCommentBundle) 这个bundle用来管理留言。具体来说，它提供了一个Comment模型（当然也有对应的控制器）来添加，修改和删除网站留言。当然，视图也提供了。装了这个bundle，你就可以在任意页面加上留言的功能了。
 - [GravatarBundle](http://knpbundles.com/ornicar/GravatarBundle) 这个bundle可以用来管理[Gravatar](https://fr.gravatar.com/)web服务上的头像。具体来说，它给你的模板引擎提供了一个扩展，让你可以用一个函数调用轻松地显示来自Gravatar上的头像，很实用的。
 
-我真心建议你在开发你自己的bundle前去http://knpbundles.com上看一下。如果上面已经有一个符合你要求的bundle，那你再重新发明轮子的话就太傻了。:smirk: 当然，我们先得学习如果安装第三方bundle。耐心点，我们会学到的！
+我真心建议你在开发你自己的bundle前去[http://knpbundles.com](http://knpbundles.com)上看一下。如果上面已经有一个符合你要求的bundle，那你再重新发明轮子的话就太傻了。:smirk: 当然，我们先得学习如果安装第三方bundle。耐心点，我们会学到的！
 
 ## bundle的结构 ##
 
