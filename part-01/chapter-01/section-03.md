@@ -26,7 +26,7 @@ $ php app/console server:run &
 
 ## 检查你的PHP版本和配置 ##
 
-Symfony2对你的PHP版本和配置是有一些要求的。比如，它只能运行在版本5.3.3或以上的PHP中。
+Symfony2对你的PHP版本和配置是有一些要求的。比如，它只能运行在版本5.3.9或以上的PHP中。
 为了检查下你的PHP环境是否兼容Symfony2，请在浏览器上输入这个地址http://localhost:8000/config.php。如果你的PHP版本够的话，你应该会看到下面这张图。
 
 ![](./images/config.png)
