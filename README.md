@@ -27,7 +27,7 @@ book和cookbook都是重要的参考资料，但在这以外，倘若可以有�
 1. 鸟瞰Symfony2
  + [Symfony2：一个PHP框架](./part-01/chapter-01/index.md)
  + [你说什么？Symfony2？](./part-01/chapter-02/index.md)
- + [用命令行来新建一个bundle](./part-01/chapter-03/index.md)
+ + [用控制台来创建第一个bundle](./part-01/chapter-03/index.md)
 2. Symfony2基础
  + [第一个用Symfony2实现的“Hello World!”](./part-02/chapter-04/index.md)
  + [路由](./part-02/chapter-04/index.md)
