@@ -1,4 +1,4 @@
-# Symfony2实战 #
+# Symfony2网站开发 #
 
 ## 关于本教程 ##
 这套教程翻译自法语在线教程[Développez votre site web avec le framework Symfony2](https://openclassrooms.com/courses/developpez-votre-site-web-avec-le-framework-symfony2)，作者为Alexandre Bacco，采用[Creative Commons](http://creativecommons.org/licenses/by-nc-sa/2.0/)许可证，由[SensioLabs](https://sensiolabs.com/)（这个SensioLabs就是推出Symfony的背后公司）和[OpenClassrooms](https://openclassrooms.com/)联合推出，Symfony的缔造者Fabien Potencier请自推荐。
