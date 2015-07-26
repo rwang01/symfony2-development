@@ -48,7 +48,7 @@
 
 模板引擎的目的就是要简化前端开发人员的工作。一位前端人员未必会写PHP代码，或许也不会写Twig代码，但Twig非常容易上手，写起来快，读起来容易，而且它包含一些很有用的功能。比如说你的前端人员要把标题大写，他只要写`{{ title|upper }}`，这里`title`是包含文章标题内容的变量。它看起来可比`<?php echo strtoupper($titre); ?>`优雅多了，不是吗？
 
-在专门讨论Twig的章节里，我们会看到它提供的很多功能可以简化开发。现在我们继续来改进我们的“Hello World !”程序。
+在专门讨论Twig的章节里，我们会看到它提供的很多功能可以简化开发。现在我们继续来改进我们的“Hello World!”程序。
 
 ## 在Symfony2里使用Twig ##
 
@@ -76,13 +76,13 @@
         <title>Bienvenue sur ma première page avec OpenClassrooms !</title>
     </head>
     <body>
-        <h1>Hello World !</h1>
+        <h1>Hello World!</h1>
         
         <p>
             Le Hello World est un grand classique en programmation.
             Il signifie énormément, car cela veut dire que vous avez
             réussi à exécuter le programme pour accomplir une tâche simple :
-            afficher ce hello world !
+            afficher ce hello World!
         </p>
     </body>
 </html>
@@ -106,7 +106,7 @@
 
 namespace OC\PlatformBundle\Controller;
 
-// 别忘了使用use :
+// 别忘了使用use：
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -122,7 +122,7 @@ class AdvertController extends Controller
 
 我们的控制器只是继承了Symfony2提供的基础控制器，然后加了一行获取模板生成内容的代码。
 
-定义模板名的惯例和定义控制器名的惯例是一样的：`NameOfBundle:NameOfController:NameOfAction`。然后我们修改了创建`Response`实例的代码，把新加的`$content`变量传给`Response`的构造函数，而不再是硬编码的“Hello World !”了。
+定义模板名的惯例和定义控制器名的惯例是一样的：`NameOfBundle:NameOfController:NameOfAction`。然后我们修改了创建`Response`实例的代码，把新加的`$content`变量传给`Response`的构造函数，而不再是硬编码的“Hello World!”了。
 
 > 怎么理解`$this->get('templating')`这段代码？
 > 好问题！在控制器里形如`$this->get('my_service')`的函数调用会返回一个名叫`my_service`的对象，这个对象可以用来完成一些任务。例如这里的`templating`对象可以通过它的`render`方法来获取模板生成的内容。这些称之为“服务（service）”的对象是Symfony框架里非比寻常的特色。我们之后会有专门的章节详细讨论它。目前请耐心等等，你只要知道怎么使用这些对象，而先不用管它们是怎么来的。
@@ -131,7 +131,7 @@ class AdvertController extends Controller
 
 ![](./images/hello_world_twig.png)
 
-> 请留意页面底部的工具栏。我已经告诉过你：当在开发环境下，Symfony2检测到关闭标签`</body>`时，就会自动加上工具栏。正是因为这个原因我们之前的“Hello World !”例子里没有出现工具栏。
+> 请留意页面底部的工具栏。我已经告诉过你：当在开发环境下，Symfony2检测到关闭标签`</body>`时，就会自动加上工具栏。正是因为这个原因我们之前的“Hello World!”例子里没有出现工具栏。
 
 你想要试试倒腾一下Twig的变量吗？请修改控制器，在`render()`方法里增加进第二个参数，这个参数是一个关联数组，其中元素的键是变量名，元素的值是变量值。
 
@@ -149,7 +149,7 @@ $content = $this
 接着，修改模板代码，把`<h1>`标签改成下面的内容：
 
 ```twig
-<h1>Hello {{ name }} !</h1>
+<h1>Hello {{ name }}!</h1>
 ```
 
 完成！刷新下页面。你看到变化了吧！在专门讨论Twig的章节里，我们再具体讨论模板变量的传递。

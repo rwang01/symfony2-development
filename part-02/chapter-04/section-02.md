@@ -29,7 +29,7 @@ class AdvertController
 {
     public function indexAction()
     {
-        return new Response("Hello World !");
+        return new Response("Hello World!");
     }
 }
 ```
@@ -44,9 +44,9 @@ class AdvertController
 - 第7行：我们的控制器需要用到`Response`的一个实例，所以这里要用`use`来声明一下。
 - 第9行：控制器的名字要和它所在文件的名字一致（后缀除外），这样自动加载才能正常工作。
 - 第11行：我们定义了`indexAction()`方法。别忘了在方法名后面加上`Action`后缀。
-- 第13行：我们创建一个很简单的应答。`Response`构造函数里的参数就是你发送给网站用户的网页内容，这里就是“Hello World !”。然后返回这个应答对象。
+- 第13行：我们创建一个很简单的应答。`Response`构造函数里的参数就是你发送给网站用户的网页内容，这里就是“Hello World!”。然后返回这个应答对象。
 
-当然，显示的网页还不太漂亮，但至少我们达到了自己动手来显示“Hello World !”的目标了！
+当然，显示的网页还不太漂亮，但至少我们达到了自己动手来显示“Hello World!”的目标了！
 
 > 为什么方法名是`indexAction()`？我还是不太明白。
 
