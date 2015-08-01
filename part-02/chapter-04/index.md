@@ -1,4 +1,4 @@
-# 用Symfony2实现“Hello World!” #
+# 用Symfony2实现“Hello World!”
 
 本章的目标是把各部分组合成我们的第一个Symfony2页面：一个只包含“Hello World!”的简单页面。我们会建立这样一个页面所必须的所有要素。
 
@@ -11,4 +11,4 @@
 1. [建立我们的路径](./section-01.md)
 2. [建立我们的控制器](./section-02.md)
 3. [建立我们的Twig模板](./section-03.md)
-4. [我们的项目目标：建立一个广告发布平台](./section-04.md)
+4. [项目目标：建立一个招聘广告发布平台](./section-04.md)

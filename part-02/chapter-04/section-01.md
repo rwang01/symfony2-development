@@ -1,12 +1,12 @@
-# 建立我们的路径 #
+# 建立我们的路径
 
 我们会在`OCPlatformBundle`这个bundle下开发，所以请切换到`src/OC/PlatformBundle`这个目录吧。
 
 要新建一个页面，我们先要定义通过哪个URL来访问该页面。为此，我们要为这个页面新建一条路径。
 
-## 路由？路径？ ##
+## 路由？路径？
 
-### 它们的目的 ###
+### 它们的目的
 
 路由的目的是要建立一个URL和路径参数的对应关系。
 
@@ -20,7 +20,7 @@
 
 我刚才说过，本章不会涉及内核和路由，目前我们只关注路径。
 
-### 1.建立路径文件 ###
+### 1.建立路径文件
 
 路径被定义在一个简单的文本文件里，这个文件Symfony2已经给我们的`OCPlatformBundle`创建好了。通常它被命名为对应bundle的`Resources/config/routing.yml`。打开这个文件，并把下面的内容添加进去：
 
@@ -49,7 +49,7 @@ hello_the_world:
 - `Advert`是控制器的名字，它对应到bundle目录下的`Controller/AdvertController.php`文件，也就是我们项目根目录下的`src/OC/PlatformBundle/Controller/AdvertController.php`文件。
 - `index`是控制器里要执行的方法的名字（译者注：也就是action的名字）。
 
-### 2.把新建的路径告知给Symfony2 ###
+### 2.把新建的路径告知给Symfony2
 
 其实不用告诉路由我们有一个新的路径了，因为它已经知道了！还记得吗，上一章里我们看到，我们bundle的路径文件已经被包含在项目的主配置文件里了（就是项目根目录下的`app/config/routing.yml`文件），所以这里没什么要做的。
 
